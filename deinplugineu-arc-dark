@@ -1,0 +1,83 @@
+@-moz-document domain("deinplugin.eu")
+{
+  body
+  {
+    color: #ffffff;
+    background-color: #4B5162;
+  }
+
+  .border-bottom
+  {
+    border-bottom: 1px solid #4B5162!important;
+  }
+
+  .bg-white
+  {
+    background-color: #4B5162!important;
+  }
+
+  .text-dark
+  {
+    color: #ffffff!important;
+  }
+
+  .card
+  {
+    background-color: #383C4A;
+  }
+
+  .pre
+  {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  pre
+  {
+    color: #ffffff;
+  }
+
+  .text-muted
+  {
+    color: #9a9a9a!important;
+  }
+
+  .modal-content
+  {
+    background-color: #4B5162;
+  }
+
+  hr
+  {
+    border-top: 1px solid #5294E2;
+  }
+
+  .nav-underline
+  {
+    color: rgba(255, 255, 255, 0.49);
+  }
+
+  .card-text
+  {
+    color: #fff;
+  }
+
+  .pre
+  {
+    background-color: #4B5162;
+  }
+
+  a
+  {
+    color: #5294E2;
+  }
+
+  a:hover
+  {
+    color: #71a7e6;
+  }
+
+  a.text-dark:hover
+  {
+    color: #fff !important;
+  }
+}
