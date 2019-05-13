@@ -1,0 +1,182 @@
+@-moz-document url("https://my-manage.net/about.php")
+{
+  form h1:before
+  {
+    white-space: pre;
+    content: "Das Dark Theme funktioniert auf dieser Seite leider nicht :(\a";
+  }
+}
+
+@-moz-document url-prefix("https://my-manage.net/imprint.php")
+{
+  .card
+  {
+    background-color: #272727;
+    border: 0;
+    border-radius: 0;
+  }
+
+  body
+  {
+    color: #ffffff;
+  }
+
+  a
+  {
+    color: #acacac;
+    transition-duration: 200ms;
+    text-decoration: none;
+  }
+
+  a:hover
+  {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-tabs .nav-link
+  {
+    border: 0px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+  {
+    color: #000000;
+    border-color: #ffffff00 #ffffff00 #fff0;
+  }
+}
+
+@-moz-document url("https://my-manage.net/")
+{
+  header h1
+  {
+    font-variant: none;
+    color: #fff;
+  }
+
+  form
+  {
+    border: 0;
+    border-radius: 0;
+    background: #1f1f1f;
+    box-shadow: 0px 0px 15px #00000061;
+    -webkit-box-shadow: 0px 0px 15px #00000061;
+    -moz-box-shadow: 0px 0px 15px #00000061;
+  }
+
+  form h1
+  {
+    color: #ffffff;
+  }
+
+  input
+  {
+    border-radius: 0;
+    border: 0;
+  }
+
+  input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, .button.alt.blue
+  {
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #000;
+  }
+
+  input[type="submit"], input[type="reset"], input[type="button"], .button
+  {
+    border-radius: 0;
+    border: 0;
+  }
+}
+
+@-moz-document url("https://my-manage.net/shops.php")
+{
+  .navbar-light .navbar-nav .nav-link
+  {
+    color: #c6c6c6;
+    transition-duration: 200ms;
+    cursor: pointer;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover
+  {
+    color: #fff;
+  }
+
+  .border-secondary
+  {
+    border-color: #ffffff00!important;
+  }
+
+  .card
+  {
+    background-color: #1b1b1b;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .table
+  {
+    color: #ffffff;
+  }
+
+  tr:hover
+  {
+    color: #ffffff;
+  }
+
+  a
+  {
+    color: #ffffff !important;
+  }
+
+  .btn-primary
+  {
+    background-color: #1b1b1b;
+    border-color: #ffffff00;
+  }
+}
+
+@-moz-document domain("my-manage.net")
+{
+  .bg-light
+  {
+    background-color: #1d1d1d!important;
+  }
+
+  .navbar-light .navbar-brand
+  {
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar-light .navbar-nav .nav-link
+  {
+    color: rgb(230, 230, 230);
+  }
+
+  .form-control
+  {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .btn-secondary
+  {
+    background-color: #2b2b2b;
+    border-color: #2b2b2b;
+  }
+
+  .btn
+  {
+    border: 0;
+    border-radius: 0;
+  }
+
+  body
+  {
+    background: #232323;
+  }
+}
